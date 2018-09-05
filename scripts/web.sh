@@ -3,5 +3,5 @@
 PKG="nginx"
 which ${PKG}  || {
    apt-get update -y 
-    apt-get install -y ${PKG}
+   apt-get install -y ${PKG}
 } 
